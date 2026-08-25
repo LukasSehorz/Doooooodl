@@ -56,16 +56,16 @@ export const services = {
   h3: ["Unsere", "Leistungen"],
   items: [
     {
-      eyebrow: "Wartung & Reparatur",
+      eyebrow: "Automobiltechnik",
       title: "Inspektion, Bremsen, Kupplung — für alle Marken und Baujahre.",
-      image: "/img/service-mechanik.webp",
-      alt: "Hände eines Mechanikers am Bremssattel eines aufgebockten Fahrzeugs",
+      image: "/img/real-hebebuehne.webp",
+      alt: "Mercedes-Benz Limousine auf der Scherenhebebühne in der Werkstatt von Thot",
     },
     {
-      eyebrow: "Diagnose & Elektronik",
-      title: "Fehlersuche mit moderner Messtechnik — auch dort, wo andere aufgeben.",
-      image: "/img/service-diagnose.webp",
-      alt: "Diagnosegerät am OBD-Anschluss eines Fahrzeugs",
+      eyebrow: "Karosseriebau",
+      title: "Karosserie, Lack und Fehlersuche — auch dort, wo andere aufgeben.",
+      image: "/img/real-halle.webp",
+      alt: "Werkstatthalle mit Mercedes-Benz Limousine auf der Hebebühne und Oldtimer-Bus im Hintergrund",
     },
   ],
 };
@@ -83,8 +83,8 @@ export const values = {
     {
       no: "01",
       title: "Meisterhandwerk",
-      image: "/img/value-meister.webp",
-      alt: "Kfz-Meister bei der Arbeit am geöffneten Motorraum",
+      image: "/img/real-aussen.webp",
+      alt: "Mitarbeiter von Thot bei der Arbeit an einem klassischen Mercedes-Benz Coupé vor der Werkstatt",
       body:
         "Zwei Kfz-Meister mit jahrzehntelanger Erfahrung stehen selbst in der Halle. Diagnose, Entscheidung und Ausführung liegen in einer Hand.",
     },
@@ -135,16 +135,16 @@ export const references = {
       title: "Tachoproblem nach zehn Minuten gelöst",
       body:
         "Mehrere Werkstätten hatten den Tacho ausgebaut, ohne die Ursache zu finden. Bei uns war die Diagnose eine Sache von Minuten.",
-      image: "/img/ref-oldtimer.webp",
-      alt: "Klassische dunkelblaue Limousine der 1980er-Jahre in der Werkstatt",
+      image: "/img/real-halle.webp",
+      alt: "Schwarze Mercedes-Benz Limousine auf der Hebebühne in der Werkstatthalle von Thot",
     },
     {
-      tag: "Alltagsfahrzeug",
-      title: "Schnelle Abwicklung, klarer Preis",
+      tag: "Klassiker",
+      title: "Karosserie und Technik aus einer Hand",
       body:
-        "Inspektion, Bremsen, Verschleißteile: Termin, Kostenrahmen und Rückgabe abgestimmt — damit Sie planen können.",
-      image: "/img/ref-modern.webp",
-      alt: "Silberner Kompaktwagen mit geöffneter Motorhaube in der Werkstatt",
+        "Vom Chromdetail bis zur Bremsanlage: Bei Klassikern und Youngtimern übernehmen wir Karosseriearbeit und Technik im selben Haus.",
+      image: "/img/real-aussen.webp",
+      alt: "Klassisches Mercedes-Benz Coupé vor der Werkstatt von Thot, Mitarbeiter bei der Arbeit am Heck",
     },
   ],
 };
@@ -153,8 +153,8 @@ export const references = {
 export const testimonials = {
   label: "Bewertungen",
   h3: "Was unsere Kunden sagen",
-  image: "/img/testimonial.webp",
-  imageAlt: "Mechaniker an der Werkbank bei der Arbeit an einem Bauteil",
+  image: "/img/real-portrait.webp",
+  imageAlt: "Blick in die Werkstatthalle von Thot mit Fahrzeug auf der Hebebühne",
   cta: "Auf Google ansehen",
   items: [
     {

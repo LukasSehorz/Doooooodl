@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import clsx from "clsx";
 import { AnimatePresence, motion } from "framer-motion";
 import { business, nav, ui } from "@/lib/content";
@@ -62,11 +63,15 @@ export default function Nav() {
         )}
       >
         <div className="mx-auto flex h-[72px] w-full max-w-[1500px] items-center justify-between gap-4 px-6 md:px-10">
-          <a
-            href="#start"
-            className="display text-[28px] lowercase tracking-tight text-cream"
-          >
-            {business.shortName}
+          <a href="#start" className="flex shrink-0 items-center" aria-label={business.name}>
+            <Image
+              src="/img/logo-nav.png"
+              alt={`${business.name} — Automobiltechnik & Karosseriebau, Meisterbetrieb`}
+              width={1113}
+              height={220}
+              priority
+              className="h-8 w-auto md:h-10"
+            />
           </a>
 
           <div className="flex items-center gap-2 sm:gap-3">
