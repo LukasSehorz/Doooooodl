@@ -30,27 +30,31 @@ export default function Services() {
 
                 <div className="absolute inset-0 bg-gradient-to-b from-ink/85 via-ink/20 to-transparent" />
 
-                <div className="absolute inset-0 p-8">
-                  <p className="eyebrow text-cream/70">{item.eyebrow}</p>
-                  <h4 className="display mt-3 max-w-[22ch] text-[clamp(1.1rem,2vw,1.6rem)] text-cream">
-                    {item.title}
-                  </h4>
-                </div>
+                {/* Text und Pfeil liegen in einer Spalte, damit der Pfeil den
+                    Titel auf schmalen Karten nicht überdeckt. */}
+                <div className="absolute inset-0 flex flex-col p-6 md:p-8">
+                  <div>
+                    <p className="eyebrow text-cream/70">{item.eyebrow}</p>
+                    <h4 className="display mt-3 max-w-[22ch] text-[clamp(1.1rem,2vw,1.6rem)] text-cream">
+                      {item.title}
+                    </h4>
+                  </div>
 
-                <span className="absolute bottom-6 right-6 grid size-12 place-items-center rounded-full border border-hair text-cream transition-colors duration-500 group-hover:border-amber group-hover:bg-amber group-hover:text-ink">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                    className="size-5"
-                  >
-                    <path d="M5 12h14M13 6l6 6-6 6" />
-                  </svg>
-                </span>
+                  <span className="mt-auto ml-auto grid size-11 shrink-0 place-items-center rounded-full border border-hair text-cream transition-colors duration-500 group-hover:border-amber group-hover:bg-amber group-hover:text-ink md:size-12">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                      className="size-5"
+                    >
+                      <path d="M5 12h14M13 6l6 6-6 6" />
+                    </svg>
+                  </span>
+                </div>
               </article>
             </Reveal>
           ))}

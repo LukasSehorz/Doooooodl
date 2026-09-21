@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { business, footer, nav, testimonials, ui } from "@/lib/content";
 
 function Stars() {
@@ -27,9 +28,13 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-[1500px] px-6 md:px-10">
         <div className="grid gap-12 md:grid-cols-[1fr_2fr_1fr]">
           <div>
-            <span className="display block text-4xl lowercase text-mute-dark">
-              {business.shortName}
-            </span>
+            <Image
+              src="/img/logo.png"
+              alt={`${business.name} — Automobiltechnik & Karosseriebau, Meisterbetrieb`}
+              width={2172}
+              height={724}
+              className="h-12 w-auto"
+            />
 
             <nav aria-label={footer.navigate} className="mt-10">
               <h2 className="eyebrow mb-5 text-mute">{footer.navigate}</h2>

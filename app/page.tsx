@@ -1,6 +1,7 @@
 import ContactBand from "@/components/ContactBand";
 import Fleet from "@/components/Fleet";
 import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import References from "@/components/References";
@@ -20,6 +21,7 @@ export default function Home() {
         <Values />
         <Fleet />
         <References />
+        <Gallery />
         <Testimonials />
         <ContactBand />
       </main>

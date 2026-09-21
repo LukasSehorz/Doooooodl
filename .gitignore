@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Rohbildmaterial des Betriebs (120 MB) - gehoert nicht ins Repo
+/Bilder/
+# Arbeitsunterlage fuer den Betrieb, kein Website-Inhalt
+/Benoetigte-Angaben-Thot-Website.pdf

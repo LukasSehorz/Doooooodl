@@ -66,7 +66,9 @@ export default function Hero() {
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-transparent to-ink" />
-      <div className="absolute inset-0 bg-ink/30" />
+      {/* Kräftige Abdunklung: die echte Werkstattaufnahme ist unruhig, die
+          Überschrift braucht deutlichen Kontrast. */}
+      <div className="absolute inset-0 bg-ink/62" />
 
       {/* Seitliche Mikro-Beschriftungen */}
       <div className="pointer-events-none absolute left-3 top-1/2 z-10 hidden -translate-y-1/2 lg:block">
@@ -84,7 +86,9 @@ export default function Hero() {
             <span className="eyebrow text-mute">{hero.eyebrow}</span>
           </div>
 
-          <p className="mt-5 flex flex-wrap gap-x-2 text-sm tracking-wide text-mute">
+          {/* Einzug entspricht Strich (w-12) plus Abstand (gap-4), damit die
+              Zeile bündig unter "Kfz-Meisterbetrieb" beginnt. */}
+          <p className="mt-3 flex flex-wrap gap-x-2 pl-16 text-sm tracking-wide text-mute">
             {hero.welcome.map((word, index) => (
               <motion.span
                 key={word}
