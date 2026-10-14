@@ -47,6 +47,9 @@ export const hero = {
   headline: "Ihr Auto in besten Händen.",
   description:
     "Michael und Markus Thot betreuen Ihr Fahrzeug persönlich — von der Inspektion über die Bremsen bis zur kniffligen Fehlersuche. Markenunabhängig, ehrlich kalkuliert, termintreu.",
+  // Kurzfassung des Hinweises aus der Markenleiste, direkt im Aufmacher.
+  note:
+    "Ausschließlich Verbrennungsmotoren — für Elektrofahrzeuge liegt uns keine Zulassung vor.",
 };
 
 export const welcome = {

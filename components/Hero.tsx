@@ -128,9 +128,14 @@ export default function Hero() {
         </div>
 
         <div className="grid gap-10 md:grid-cols-3 md:items-end md:gap-8">
-          <p className="max-w-sm text-sm leading-relaxed text-mute">
-            {hero.description}
-          </p>
+          <div className="max-w-sm">
+            <p className="text-sm leading-relaxed text-mute">
+              {hero.description}
+            </p>
+            <p className="mt-4 border-l-2 border-amber/60 pl-3 text-sm leading-relaxed text-mute/85">
+              {hero.note}
+            </p>
+          </div>
 
           <div>
             <p className="eyebrow text-mute">{footer.findUs}</p>
