@@ -23,7 +23,8 @@ export const business = {
   ratingCount: 72,
   hours: [
     { days: "Mo – Do", time: "08:00 – 17:00 Uhr" },
-    { days: "Freitag", time: "08:00 – 15:00 Uhr" },
+    { days: "Freitag", time: "08:00 – 14:00 Uhr" },
+    { days: "TÜV im Haus", time: "Di, Do und Fr nach Vereinbarung" },
   ],
 };
 
@@ -116,6 +117,8 @@ export const values = {
 export const fleet = {
   title: "Wir betreuen Ihr Fahrzeug.",
   subtitle: "Vom Youngtimer bis zum aktuellen Modell — markenunabhängig.",
+  note:
+    "Wir arbeiten ausschließlich an Verbrennungsmotoren. Für Elektrofahrzeuge liegt uns keine Zulassung vor.",
   brands: [
     "Volkswagen", "BMW", "Mercedes-Benz", "Audi", "Škoda", "Seat",
     "Opel", "Ford", "Fiat", "Renault", "Toyota", "Hyundai", "Kia", "Volvo",

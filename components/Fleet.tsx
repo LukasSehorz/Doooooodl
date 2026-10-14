@@ -27,6 +27,9 @@ export default function Fleet() {
             {fleet.title}
           </h3>
           <p className="mt-3 text-sm text-mute">{fleet.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-[52ch] text-sm text-mute/80">
+            {fleet.note}
+          </p>
         </Reveal>
       </div>
 
